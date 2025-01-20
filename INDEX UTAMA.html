@@ -1,0 +1,73 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Cari Golongan
+  </title>
+  <style>
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(223, 80%, 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(24, 57, 220) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(238, 65%, 84%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(24, 73, 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+  </style>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="bg-blue-700 p-6">
+   <div class="max-w-4xl mx-auto">
+    <div class="relative">
+     <input class="w-full p-4 rounded-full text-lg" placeholder="Pelatihan" type="text"/>
+     <i class="fas fa-search absolute top-4 right-4 text-gray-500">
+     </i>
+    </div>
+    <div class="mt-4 text-white">
+     <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full">
+      Angkatan 1
+     </button>
+     <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full">
+        Angkatan 2
+       </button>
+       <button class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full">
+        Angkatan 3
+       </button>
+       <button
+       class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-full"
+       onclick="window.location.href='index1.html'">
+       Angkatan 4
+     </button>
+     
+    </div>
+   </div>
+  </div>
+   </div>
+  </div>
+ </body>
+</html>
